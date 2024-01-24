@@ -3,12 +3,11 @@ public void setup()
  size(512, 512);
  background(0);
  fill((float)(Math.random()*255), (float)(Math.random()*255), (float)(Math.random()*255));
- sierpinski(0,512,512);
 }
 
 public void draw()
 {
-
+ sierpinski(0,512,512);
 }
 
 public void sierpinski(int x, int y, int len) 
