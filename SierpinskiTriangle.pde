@@ -2,7 +2,6 @@ public void setup()
 {
  size(1024, 1024);
  background(0);
- fill((float)(Math.random()*255), (float)(Math.random()*255), (float)(Math.random()*255));
 }
 
 public void draw()
@@ -12,6 +11,7 @@ public void draw()
 
 public void sierpinski(int x, int y, int len) 
 {
+ fill((float)(Math.random()*255), (float)(Math.random()*255), (float)(Math.random()*255));
   if(len<20){
  triangle(x,y,x+len,y,x+len/2,y-len);
 }
