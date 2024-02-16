@@ -9,10 +9,6 @@ public void draw()
  sierpinski(0,1024,1024);
 }
 
-public void mouseClicked() {
-    fill((float)(Math.random()*255), (float)(Math.random()*255), (float)(Math.random()*255));
-}
-
 public void sierpinski(int x, int y, int len) 
 {
  fill((float)(Math.random()*255), (float)(Math.random()*255), (float)(Math.random()*255));
